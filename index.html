@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="myPage">
+
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar"
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+</nav>
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+       
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="#" class="w3-bar-item w3-button">Link</a>
+      <a href="#" class="w3-bar-item w3-button">Link</a>
+      <a href="#" class="w3-bar-item w3-button">Link</a>
+    </div>
+  </div>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="https://i.pinimg.com/originals/0b/97/0f/0b970fd7cf29d9f4cabf56b06c5f43ad.png"> 
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">PeenoiseFam Esport</button>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>OUR PNF ADMINS</h2>
+<p>Meet the Leader And CoLeader</p>
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter">
+  <img src="https://scontent.flgp1-1.fna.fbcdn.net/v/t39.30808-6/283579799_5149978821759517_4923568260516633444_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEDHf49G50ksBlO5W2qP10-x37X2y7EOgDHftfbLsQ6AAzG58kKOYSMnWl3rNPx2Nbtk96uOevP9i0FVCm__MAP&_nc_ohc=eGgpThT0d04AX_9iCrE&_nc_ht=scontent.flgp1-1.fna&oh=00_AfCd-jFJJ3H3pL8khU9GfyuimlpvBevrbwGI2nAR5S4vpQ&oe=6385A274" alt="Leader" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Dave Andrei</h3>
+  <p>Leader</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="https://scontent.flgp1-1.fna.fbcdn.net/v/t39.30808-6/306600962_817313973047231_8441573636629680915_n.jpg?stp=cp6_dst-jpg&_nc_cat=108&ccb=1-7&_nc_sid=174925&_nc_eui2=AeFfOcbUySkIYTZyrv_BpOaROOZnsUcgG1k45mexRyAbWRLqnw8dXjmu9Lji_1vTOhPjwX9M6a3nprtz4wnFO97x&_nc_ohc=_5fwzusUC0AAX_uBdaz&_nc_ht=scontent.flgp1-1.fna&oh=00_AfDsq6CzoxP0idDXKJHaN1jMSk0ofBblvXlfuqObEXINyg&oe=63874A68" alt="CoLeader" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Seth Agao</h3>
+  <p>CoLeader</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="https://scontent.flgp1-1.fna.fbcdn.net/v/t39.30808-6/307099253_165457512739845_5528139847632949462_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHdIdUImTjmb1F2LyNMjRAFiyrgvW6mUouLKuC9bqZSi3eqvBzyqVx_FLd3dCqZsfUGa5aIISlXnc6lkQlUXX0Z&_nc_ohc=UeFTeMNsk0sAX-rf25e&_nc_ht=scontent.flgp1-1.fna&oh=00_AfDeOrWAlRYCSGRK92luqwYjJpkYYHmWG-0aTRnkMsCduQ&oe=63862846" alt="CoLeader" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Tioaya G. Ronald</h3>
+  <p>CoLeader</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="https://scontent.flgp1-1.fna.fbcdn.net/v/t39.30808-6/291575040_2209668212532195_8613272306378636485_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEprmrrRISa5gi9pMKa01yY0Jz2Tmj7YCzQnPZOaPtgLHoEyePs1M4zghY5lPzyUq3MzexaVNTW42ZuZQZMgfVn&_nc_ohc=XggaqbQrK9wAX-JOolu&_nc_ht=scontent.flgp1-1.fna&oh=00_AfAhHdkDrO-KrgfXldevh-X81s2zXqYdqmC2YUTIO8FJ5g&oe=63875962" alt="CoLeader" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Paul Victorino</h3>
+  <p>CoLeader</p>
+</div>
+</div>
+</div>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+</script>
+
+</body>
+</html>
